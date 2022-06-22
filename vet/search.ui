@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Search</class>
+ <widget class="QMainWindow" name="Search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1288</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Search</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tb_record">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>501</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbx_dog">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>161</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>691</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="lb_id">
+       <property name="text">
+        <string>User ID</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_id"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="lb_phone">
+       <property name="text">
+        <string>Phone</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_phone"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_search">
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>691</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="lb_disease">
+       <property name="text">
+        <string>Disease</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_disease"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="lb_prescription">
+       <property name="text">
+        <string>Prescription</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_prescription"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableView" name="tb_reservation">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>110</y>
+      <width>471</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_date">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>60</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>date</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_time">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>60</y>
+      <width>62</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>time</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reload">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>60</y>
+      <width>221</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RELAOD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_hos_name">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>hos_name</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>171</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>VACCINE</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DHPPL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DA2PPL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CoronaVirus</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kennel Cough</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rabies</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>131</width>
+      <height>107</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="lb_height">
+         <property name="text">
+          <string>height</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>cm</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="lb_weight">
+         <property name="text">
+          <string>weight</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>kg</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="lb_age">
+       <property name="text">
+        <string>age</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lb_male_female">
+       <property name="text">
+        <string>M/F</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_choose">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>590</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CHOOSE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>560</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_example">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>471</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Image is not loaded</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_adress">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>560</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>file path</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1288</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
